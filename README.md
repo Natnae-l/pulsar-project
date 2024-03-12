@@ -6,8 +6,7 @@ Welcome to the Pulsar Project! This repository contains a simple application tha
 
 Before running the application, make sure to set up your environment variables. Create a .env file in the root of the project and add the following variables:
 
-PULSAR_SERVICE_URL=your_pulsar_service_url
-PULSAR_TOPIC=your_pulsar_topic
+i = 0
 
 
 ## Installation
@@ -21,7 +20,8 @@ npm install
 
 To start the application, run:
 
-npm start
+npm run start
+node consumer
 
 
 This will start the Express server, allowing you to publish and subscribe to messages.
