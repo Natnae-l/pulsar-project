@@ -29,7 +29,7 @@ This will start the Express server, allowing you to publish messages.
 
 node consumer
 
-This will start the Express server, allowing you to subscribe to messages.
+This will start the consumer, allowing you to subscribe to messages.
 
 
 
