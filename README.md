@@ -17,8 +17,11 @@ npm install
 
 
 ## Running the Application
+To start the application, first run this on your terminal:
 
-To start the application, run:
+sudo docker run -it -p 6650:6650 -p 8080:8080 --mount source=pulsardata,target=/pulsar/data --mount source=pulsarconf,target=/pulsar/conf apachepulsar/pulsar:2.11.3 bin/pulsar standalone 
+
+Then to start the application,:
 
 npm run start
 
