@@ -4,7 +4,7 @@ Welcome to the Pulsar Project! This repository contains a simple application tha
 
 ## Setup
 
-Before running the application, make sure to set up your environment variables. Create a .env file in the root of the project and add the following variables:
+Before running the application, make sure to set up your environment variables. Create a .env file in the root of the project and add the following variables::
 
 i = 0
 
